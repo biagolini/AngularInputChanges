@@ -8,7 +8,7 @@ Perform 2-digit rounding on input tag.
 
 ## Objetivo
 
-Executar o arredondamento de 2 dígitos no tag de entrada.
+Executar o arredondamento de 2 dígitos no tag de input.
 
 # StackBlitz
 
