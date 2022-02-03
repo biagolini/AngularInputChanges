@@ -1,4 +1,18 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div>
+  <label>Give me a number: </label>
+  <input
+    type="number"
+    step="0.01"
+    [value]="valueFirstInput"
+    (change)="changeFn($event)"
+  />
+  <p></p>
+  <label>Give me another number: </label>
+  <input
+    type="number"
+    step="0.01"
+    [ngModel]="valueSecondInput"
+    (ngModelChange)="modelChangeFn($event)"
+  />
+  <p></p>
+</div>
